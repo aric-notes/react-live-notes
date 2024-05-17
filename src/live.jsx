@@ -1,4 +1,5 @@
-<>
+/* eslint-disable */
+<div className="y-2 *:debug-red">
   <h3
     style={{
       background: 'darkslateblue',
@@ -10,4 +11,4 @@
   </h3>
   <ComponentA />
   <ComponentB />
-</>;
+</div>;
