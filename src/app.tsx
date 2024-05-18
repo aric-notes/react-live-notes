@@ -6,7 +6,7 @@ import ComponentB from './components/component-b';
 
 function App() {
   return (
-    <div className="mx-auto mt-20 w-1/2 flex-col rounded-md bg-slate-200 p-5 shadow-md y-2">
+    <div className="mx-auto w-1/2 flex-col rounded-md bg-slate-200 p-5 shadow-md y-2">
       <h1>Live Code Editor</h1>
       <LiveProvider
         code={code}
