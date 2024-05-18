@@ -1,6 +1,6 @@
 import { LiveProvider, LiveEditor, LivePreview, LiveError } from 'react-live';
 import code from './live.jsx?raw';
-import React, { useState, useEffect, useRef, useReducer } from 'react';
+import React, { useState, useRef, useReducer } from 'react';
 import ComponentA from './components/component-a';
 import ComponentB from './components/component-b';
 
@@ -13,7 +13,6 @@ function App() {
         scope={{
           React,
           useState,
-          useEffect,
           useRef,
           useReducer,
           ComponentA,
